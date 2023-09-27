@@ -1,73 +1,81 @@
 **GPT-4 Generated C Tasks** 
 This directory's contents are of GPT-4's generated tasks given to me. I'll add all the tasks in separate .c files, then proceed to solve them.
 
-1. Hello, World!
-        Print "Hello, World!" to the console.
+1. Hello, World!<br>
+Print "Hello, World!" to the console.
 
-2. User Input
-        Ask the user for their name and greet them.
+2. User Input<br>
 
-3. Basic Arithmetic
-        Take two numbers as input and print their sum, difference, product, quotient, and remainder.
+Ask the user for their name and greet them.
 
-4. Even or Odd
-        Check if a given number is even or odd.
+3. Basic Arithmetic<br>
 
-5. Factorial
-        Compute the factorial of a number.
+Take two numbers as input and print their sum, difference, product, quotient, and remainder.
 
-6. Fibonacci Series
-        Print the first n Fibonacci numbers.
+4. Even or Odd<br>
 
-7. Array Operations
-        Declare an array, insert values, display them, find the maximum and minimum.
+Check if a given number is even or odd.
 
-8. Basic String Manipulation
-        Write a program that takes a string as input and then prints it in reverse.
+5. Factorial<br>
 
-9. Temperature Converter
-        Convert Celsius to Fahrenheit and vice-versa.
+Compute the factorial of a number.
 
-10. Grade Calculator
+6. Fibonacci Series<br>
 
-        Take marks of 5 subjects and calculate the average and grade based on the average.
+Print the first n Fibonacci numbers.
 
-11. Prime Number
+7. Array Operations<br>
 
-        Check if a given number is prime.
+Declare an array, insert values, display them, find the maximum and minimum.
 
-12. GCD (Greatest Common Divisor)
+8. Basic String Manipulation<br>
 
-        Find the GCD of two numbers.
+Write a program that takes a string as input and then prints it in reverse.
 
-13. Bubble Sort
+9. Temperature Converter<br>
 
-        Implement the bubble sort algorithm to sort an array of numbers.
+Convert Celsius to Fahrenheit and vice-versa.
 
-14. Linear Search
+10. Grade Calculator<br>
 
-        Implement linear search to find a number in an array.
+Take marks of 5 subjects and calculate the average and grade based on the average.
 
-15. Basic File Operations
+11. Prime Number<br>
 
-        Write a program to write to a file and then read from it.
+Check if a given number is prime.
 
-16. Pointer Arithmetic
+12. GCD (Greatest Common Divisor)<br>
 
-        Declare an array and use pointer arithmetic to traverse and print its elements.
+Find the GCD of two numbers.
 
-17. Structures
+13. Bubble Sort<br>
 
-        Define a structure to store information about a student (e.g., roll number, name, age) and then take details for a few students as input and display them.
+Implement the bubble sort algorithm to sort an array of numbers.
 
-18. Dynamic Memory Allocation
+14. Linear Search<br>
 
-        Use malloc() and free() to dynamically allocate memory for an array, fill it, and then release the memory.
+Implement linear search to find a number in an array.
 
-19. Command Line Arguments
+15. Basic File Operations<br>
 
-        Write a program that takes numbers as command line arguments and finds their sum.
+Write a program to write to a file and then read from it.
 
-20. Recursive Functions
+16. Pointer Arithmetic<br>
 
-    Implement a recursive function, like computing the nth number in the Fibonacci series.
+Declare an array and use pointer arithmetic to traverse and print its elements.
+
+17. Structures<br>
+
+Define a structure to store information about a student (e.g., roll number, name, age) and then take details for a few students as input and display them.
+
+18. Dynamic Memory Allocation<br>
+
+Use malloc() and free() to dynamically allocate memory for an array, fill it, and then release the memory.
+
+19. Command Line Arguments<br>
+
+Write a program that takes numbers as command line arguments and finds their sum.
+
+20. Recursive Functions<br>
+
+Implement a recursive function, like computing the nth number in the Fibonacci series.
