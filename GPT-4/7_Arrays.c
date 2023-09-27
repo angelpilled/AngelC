@@ -23,19 +23,9 @@ int findMaximum(int *arrayName) {
 
 	for (int i = 0; i < arraySize; i++)
 	{
-		if (greatestNumber > arrayName[i])
-		{
-			continue;	
-		}
-		
-		else if (arrayName[i] > greatestNumber)
+		if (greatestNumber < arrayName[i])
 		{
 			greatestNumber = arrayName[i];
-		}
-
-		else
-		{
-			continue;
 		}
 	}
 
@@ -47,19 +37,9 @@ int findMinimum(int *arrayName) {
 
 	for (int i = 0; i < arraySize; i++)
 	{
-		if (smallestNumber <= arrayName[i])
+		if (smallestNumber > arrayName[i])
 		{
-			continue;
-		}
-
-		else if (arrayName[i] < smallestNumber)
-		{
-			smallestNumber = arrayName[i];	
-		}
-
-		else
-		{
-			continue;
+			smallestNumber = arrayName[i];
 		}
 	}
 
