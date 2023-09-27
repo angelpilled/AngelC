@@ -2,15 +2,15 @@
 
 #include <stdio.h>
 
-int calcFact(int factorialOf) {
+int calcFact(int n) {
 	
-	int n;
-	
-	while(factorialOf != 1) {
-		n = factorialOf	* (factorialOf-1);
-		factorialOf = factorialOf-1;
-		printf("%d", factorialOf);
+	const int m = n;
+	int factorialOf = 1;
 
+	while (factorialOf != m) {
+
+		n = n*(m-factorialOf);
+		factorialOf++;
 	}
 
 	return n;
