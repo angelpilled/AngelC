@@ -52,9 +52,9 @@ int main (void) {
 	int numberArray[5];
 	int tempNum;
 
-	printf("Please pass in 5 different numbers:\n");
+	printf("Please pass in %d different numbers:\n", arraySize);
 
-	for (int i = 0; i < 5; i++)
+	for (int i = 0; i < arraySize; i++)
 	{
 		printf("%d. Number: ", i+1);
 		scanf("%d", &tempNum);
